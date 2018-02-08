@@ -4,8 +4,9 @@
   "description": "online shopping",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server  --content-base=src/main",
+    "webpackserver": "webpack-dev-server  --content-base=src/main",
     "build": "webpack -p",
+    "start": "npm run build && npm run webpackserver",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
