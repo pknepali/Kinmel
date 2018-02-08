@@ -1,0 +1,14 @@
+# ignore all logs
+*.log
+
+# Dependency directories
+node_modules
+
+shellWidgets
+dist
+target
+lib
+
+# Ignore IntelliJ files
+*.iml
+.idea
