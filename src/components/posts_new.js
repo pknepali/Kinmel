@@ -7,7 +7,11 @@ class PostsNew extends Component {
   render() {
     return (
       <div>
-      This is Post New
+        <select className="headerDepartmentDropdown">
+          <option>argegegegerge</option>
+          <option>argegegegerge</option>
+
+        </select>
       </div>
     );
   }

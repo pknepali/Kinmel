@@ -7,7 +7,6 @@ class PostsIndex extends Component {
   render() {
     return (
       <div>
-      This is Post Index always
       </div>
     );
   }

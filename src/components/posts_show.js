@@ -7,7 +7,6 @@ class PostsShow extends Component {
   render() {
     return (
       <div>
-      This is Post New
       </div>
     );
   }
