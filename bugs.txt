@@ -1,0 +1,4 @@
+1. header dropdown
+        -- size not adjusting based on the selection
+        -- arrow not clickable
+        -- lesft of dropdown not clickable.
