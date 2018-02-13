@@ -15,15 +15,15 @@ class Header extends Component {
             <a href="">
               <img src="resources/images/amazonLogo.jpg" alt="Amazon Logo" className="headerLogo"/>
             </a>
+            <a className="tryPrime" href="">Try Prime</a>
           </div>
           <div className="headerSearchContainer">
-          <div className="headerDepartmentDropdownArrow"></div>
             <select className="headerDepartmentDropdown">
               <option>argegegegerge</option>
               <option>a</option>
             </select>
             <input type="text" className="headerSearchInput"/>
-            <button className="fa fa-search cursorPointer headerSearchButton" />
+            <button className="fa fa-search headerSearchButton" />
           </div>
           <div className="headerSearchPromoContainer">
             <a href="">

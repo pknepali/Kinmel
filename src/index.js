@@ -15,9 +15,11 @@ ReactDOM.render(
     <BrowserRouter>
       <div>
           <Header />
-          <Route path="/posts/new" component={PostsNew} />
+          <Route path="/posts/new" component={PostsIndex} />
           <Route path="/posts/:id" component={PostsShow} />
-          <Route path="/posts" component={PostsIndex} />
+          <Route path="/new" component={PostsNew} />
+          <Route path="/index" component={PostsIndex} />
+          <Route path="/show" component={PostsShow} />
           <Route path="/" component={PostsIndex} />
       </div>
     </BrowserRouter>,
