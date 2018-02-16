@@ -10,32 +10,51 @@ import headerPromo from '../../assets/images/headerPromo.png';
 class Header extends Component {
   render() {
     return (
-      <div className="header">
-        <a href="">
-          <img src={headerPromo} alt="Promo Navigation" className="headerPromoImg"/>
-        </a>
-        <div className="headerContainer">
-          <div className="headerLogoContainer">
+      <div>
+        <div className="header">
+          <div className="headQuickLink">
             <a href="">
-              <img src={amazonLogo} alt="Amazon Logo" className="headerLogo"/>
+              <img src={headerPromo} alt="Quick Link"/>
             </a>
-            <a className="tryPrime" href="">Try Prime</a>
           </div>
-          <div className="headerSearchContainer">
-            <select className="headerDepartmentDropdown">
-              <option>argegegegerge</option>
-              <option>a</option>
-            </select>
-            <input type="text" className="headerSearchInput"/>
-            <button className="fa fa-search headerSearchButton" />
-          </div>
-          <div className="headerSearchPromoContainer">
-            <a href="">
-              <img src={seaerchPromo} alt="Search Promo" className="headerSearchPromoImg"/>
-            </a>
+          <div className="headMainArea"> 
+            <div className="headFilterArea">
+              <div className="headLogoContainer">
+                <a href="">
+                  <img src={amazonLogo} alt="Amzaon Logo"/>
+                </a>
+                <div className="tryPrimeLinkContainer"> 
+                  <div className="tryPrimeLink" >Try Prime 
+
+
+                  </div>
+                  <div className="tryPrimeTooltipContainer">
+                    <h3>Get fast, free shipping with Amazon Prime</h3>
+                    <p> Prime members enjoy FREE Two-Day Shipping and exclusive access to music, movies, TV shows, original audio series, and Kindle books.</p>
+                    <span>&gt;     </span>
+                    <a href="">Get Started</a>
+                  </div>
+                </div>
+              </div>
+              <div className="headSearchContainer">
+                <select className="headDepartmentDropdown">
+                  <option>Computers</option>
+                  <option>Clothes</option>
+                </select>
+                <input type="text" className="headSearchInput"/>
+                <button className="fa fa-search headSearchButton" />
+              </div>
+              <div className="headSearchPromoContainer">
+                <a href="">
+                  <img src={seaerchPromo} alt="Search Promo" className="headSearchPromoImg"/>
+                </a>
+              </div>
+            </div>
+            <div className="headMainNav">
+            </div>  
           </div>
         </div>
-      </div>
+      </div>  
     );
   }
 }
